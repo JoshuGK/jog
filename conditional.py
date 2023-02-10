@@ -1,5 +1,5 @@
 num = eval(input("enter my age"))
-if num< 0:
+if num< 2:
     print("wrong input")
 else:
     if num> 50:

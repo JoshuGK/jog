@@ -1,0 +1,46 @@
+#my first python list
+names=["john","joshua"]
+numbers=[2,4,6]
+decimals=[34.5,76.5]
+print(names[0])
+print(len(numbers))
+for i in range(len(numbers)):
+    print(numbers[i])
+
+print(numbers.index(4))
+print(decimals.index(34.5))
+print(names.index("joshua"))
+
+numbers.append(8)
+for i in range(len(numbers)):
+    print(numbers[i])
+print(numbers.count(8))
+print(numbers.pop(3))
+numbers.insert(2,10)
+for i in range(len(numbers)):
+    print(numbers[i])
+numbers.sort()
+print(numbers)
+
+zeros = [0]*50
+print(zeros)
+
+list1=(11,4,5,8)
+list2=(8,4,6)
+final_list=list1+list2
+
+num=(23,4,5,8,3)
+print(numbers[2:])
+
+for i in range(10):
+    numbers.append(i)
+for i in range(len(num)):
+    print(numbers[i])
+
+even_nums=[]
+for num in range(20):
+    if(num%2==0):
+        even_nums.append(num)
+for i in range(len(even_nums)):
+    print(even_nums[i])
+

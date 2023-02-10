@@ -8,4 +8,4 @@ for x in range(5):
 for x in range(10,0,-1):
     print(x)
     name=input("enter your name")
-    print(my name is",jo)
+    
