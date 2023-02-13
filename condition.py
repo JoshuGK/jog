@@ -6,5 +6,6 @@ if 4==5:
     print("4 is equal to 5")
 
 list=[]
-for i in range(10,20,-2):
-    print(list)
+list_length=5
+for i in range(list_length):
+    list.append(list_length)

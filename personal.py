@@ -16,6 +16,7 @@ my_function("john")
 def my_function(name):
     name=input("enter your name")
     print("hello"+name)
+    
                
 
 
