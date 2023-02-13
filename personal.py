@@ -1,9 +1,58 @@
-age = eval(input("enter your age"))
-if age < 0:
-    print("wrong input")
-else:
-    if age > 50:
-        x = age*2
-        print (x)
-    else:
-        print("age is less than 50")
+cars={
+    "model":"ford",
+    "year":1962
+    }
+print(cars["model"])
+
+books={"name":{"publisher":"longhorn"},
+       "pages":{"number":100}}
+print(books["name"]["publisher"])
+
+
+def my_function(first_name):
+    print("hello"+first_name)
+my_function("john")
+
+def my_function(name):
+    name=input("enter your name")
+    print("hello"+name)
+               
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

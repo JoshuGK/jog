@@ -1,4 +1,10 @@
-#my first python list
-names = ["joshua","john"]
-numbers = [3,6,8,4]
-print[name{0]
+num=print(input("enter a number:"))
+if num < 0:
+    print("wrong input")
+else:
+    if num > 50:
+        
+        x=num/2
+        print(x)
+    else:
+        print("number is less than 50")

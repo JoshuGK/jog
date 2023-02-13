@@ -5,3 +5,6 @@ else:
 if 4==5:
     print("4 is equal to 5")
 
+list=[]
+for i in range(10,20,-2):
+    print(list)
