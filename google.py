@@ -10,12 +10,12 @@ print(name[0:3])
 print(name[::-1])
 
 for name_length in name:
-    if name_length>7:
-        x=name[7]
-        print(x)
-    else:
-        message=input("leave a message")
-        print(message)
+    if len(name)>7:
+        print(name[7])
+
+print(name.upper())
+print(name.replace("a","e"))
+print(name[1:-1])
     
 
     
