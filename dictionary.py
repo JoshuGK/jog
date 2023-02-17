@@ -108,4 +108,16 @@ def register():
     profiles["email"]=email
     profiles["password"]=password
     print(profiles)
+#getting/checking if the profile has been entered
+def get_profiles():
+    print(profiles)
+#changing username in the profiles
+def change_username():
+    new_name=input("enter new name:")
+    profiles["username"]=new_name
+
 register()
+get_profiles()
+
+change_username()
+get_profiles()
