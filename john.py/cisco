@@ -1,0 +1,7 @@
+i_am='I\'m'
+print(len(i_am))
+empty=''
+print(len(empty))
+multiline='''line #1
+line#2'''
+print(len(multiline))
