@@ -15,3 +15,4 @@ print("the temperature is",temp)
 #cd .. go back into the initial folder
 #cd ../.. go back 2 steps back in a folder
 #cd name/name shifts from one folder to another
+#python -m venv name creates a virtual environment

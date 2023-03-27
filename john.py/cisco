@@ -1,7 +1,12 @@
-i_am='I\'m'
-print(len(i_am))
-empty=''
-print(len(empty))
-multiline='''line #1
-line#2'''
-print(len(multiline))
+from random import randint
+for n in range (1,100):
+    if (n%2)==0:
+        print("weird")
+    elif n in range(2,5):
+        print("not weird")
+    elif n in range(6,20):
+        print("weird")
+    else:
+        print("not wierd")
+
+        
